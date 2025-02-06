@@ -1,0 +1,501 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #555;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepage {
+    background-image: url(paris2.avif);
+    background-size: cover;
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.impressum {
+    background-image: url(bild.heic);
+    background-size: cover;
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.philosophie {
+    background-image: url(ofen.avif);
+    background-size: cover;
+    background-size: 250%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.team {
+    background-image: url(gym1.heic);
+    background-size: cover;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+
+.membership-button {
+    background-color: #ffaa00;
+    color: #111;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.membership-button:hover {
+    background-color: darkorange;
+}
+
+
+h2 {
+    color: darkorange;
+}
+
+h3 {
+    color: darkorange;
+}
+
+.markiert {
+    color: darkorange;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.textbox {
+    padding: 30px;
+    background-color: #222;
+    border-radius: 15px;
+    width: 70%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.textbox-p {
+    padding: 10px;
+    background-color: #222;
+    border-radius: 15px;
+    width: 75%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.textbox p {
+    margin-bottom: 5px;
+}
+
+.karten-box strong0 {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.impressumtext strong0 {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.textbox2 strong0 {
+    display: block;
+    font-weight: bold;
+}
+
+.textbox-p strong0 {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+strong1 {
+    color: darkorange;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.course-box {
+    background-color: #222;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.course-box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.course-box h3 {
+    font-size: 1.5rem;
+    color: darkorange;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.course-box p {
+    font-size: 1rem;
+    padding: 0 15px 20px;
+    color: white;
+}
+
+.course-box:hover {
+    transform: translateY(-10px);
+}
+
+
+footer {
+    background-color: #111;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+    color: darkorange;
+}
+
+.trainerteam:hover {
+    transform: scale(1.5);
+}
+
+
+.karten {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.karten-box {
+    background-color: #222;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.karten-box1 {
+    background-color: #222;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 900px;
+    height: 300px;
+    margin-bottom: 150px;
+}
+
+.karten-box1 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.karten-box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.karten-box p {
+    padding: 0 15px 0;
+    color: white;
+}
+
+.karten-box h3 {
+    padding: 0 15px 5px;
+    margin-top: 40px;
+}
+
+.box {
+    background-color: #111;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.impressumtext {
+    text-align: left;
+    padding: 50px;
+    border-radius: 15px;
+    width: 600px;
+    margin-top: 300px;
+}
+
+.impressum-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.croissant2 img {
+    width: 500px;
+    margin-bottom: 0;
+    margin-left: 200px;
+}
+
+.croissant2 {
+    margin-top: 300px;
+    width: 700px;
+}
+
+.croissant2 img:hover {
+    transform: scale(1.5);
+}
+
+.entwicklung:hover {
+    transform: scale(1.5);
+}
+
+
+/* index */
+
+.homepage-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+
+.werbung {
+    padding: 30px;
+    background-color: white;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    margin-top: 75px;
+    cursor: pointer;
+}
+
+.werbung p {
+    color: black;
+    font-size: 40px;
+}
+
+.werbung:hover {
+    transform: scale(1.05); 
+}
+
+
+.croissant img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.croissant img:hover {
+     transform: scale(1.5);
+}
+
+.textbox2 {
+    padding: 30px;
+    background-color: #222;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 50px;
+    width: 300px;
+    height: 170px;
+}
+
+.werbung img {
+    object-fit: cover;
+}
+
+/* membership */
+
+form fieldset {
+    border: 1px solid #dedede;
+    padding: 20px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: darkorange;
+    padding: 10px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ffaa00;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+.form-container {
+    width: 700px;
+    padding: 50px;
+    background-color: #222;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+select {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 1em;
+    color: #333;
+}
+
+select option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+select:hover {
+    border-color: #ffaa00; 
+}
+
+.textbox3 {
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+    height: 70px;
+}
+
+.zeitbox {
+    text-align: left;
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 150px;
+    background-color: #222;
+}
+
+.zeitbox ul li p {
+    font-size: 1rem;
+    padding: 0 15px 20px;
+    color: white;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Croissant Fit Kurs - Croissant Training Gym</title>
+    <link rel="stylesheet" href="designcroissant.css" />
+</head>
+<body>
+    <header>
+        <a href="index.html">
+        <h1><span class="markiert">Croissant</span> Training Gym</h1>
+    </a>
+    <a href="croissantfit.html" class="membership-button">Membership</a>
+    </header>
+
+    <main>
+        <div class="textbox3">
+            <p>Fülle dieses Formular aus, um eine Anfrage zu senden für deine Mitgliedschaft im Croissant Training Gym.</p>
+        </div>
+
+
+<div class="form-container">
+        <form action="submit_form.php" method="POST">
+
+            <fieldset class="personal-data">
+                <legend>Persönliche Daten</legend>
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="address">Adresse:</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="input-group">
+                    <label for="birthdate">Geburtsdatum:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                </div>
+            </fieldset>
+
+            <fieldset class="membership">
+                <legend>Mitgliedschaft auswählen</legend>
+                <div class="input-group">
+                    <label for="status">Status:</label>
+                    <select id="status" name="status">
+                        <option value="rohling">Rohling – Einsteiger (5€ / Monat)</option>
+                        <option value="mittel">Knusprig gebacken – Fortgeschritten (10€ / Monat)</option>
+                        <option value="gut">Goldbraune Kruste – Profi (15€ / Monat)</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset class="sports">
+                <legend>Angebote</legend>
+                <div class="checkbox-group">
+                    <label>
+                        <input type="checkbox" name="sport" value="croissantfit"> Croissant Fit – Krafttraining
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sport" value="croissantrun"> Croissant Run – Laufband Workout
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sport" value="croissantcycling"> Croissant Cycling – Spinning Session
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sport" value="croissantboxing"> Croissant Boxing – Kickboxen Kurs
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sport" value="croissant"> Croissant Jump – Ropeskipping
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sport" value="croissantyoga"> Croissant Yoga – Stretch & Relax
+                    </label>
+                </div>
+            </fieldset>
+
+            <button type="submit">Anfrage senden</button>
+        </form>
+
+    </div>
+        <div class="textbox3">
+            <p>À bientôt!</p>
+        </div>
+
+
+
+
+    </main>
+
+    <footer>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="angebotecroissant.html">Angebote</a></li>
+                <li><a href="zeitencroissant.html">Öffnungszeiten</a></li>
+                <li><a href="teamcroissant.html">Unser Team</a></li>
+                <li><a href="philosophiecroissant.html">Philosophie</a></li>
+                <li><a href="impressumcroissant.html">Impressum</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
